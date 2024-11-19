@@ -7,14 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04FA07BD2CBD76600027ED73 /* IntelligenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 04FA07BC2CBD76600027ED73 /* IntelligenceKit */; };
+		0437E2E32CC403BE00270053 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E2E22CC403BE00270053 /* MarkdownUI */; };
+		0437E3592CC4129B00270053 /* IntelligenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E3582CC4129B00270053 /* IntelligenceKit */; };
+		0437E35B2CC4129B00270053 /* IntelligenceKit-MlxLlm in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E35A2CC4129B00270053 /* IntelligenceKit-MlxLlm */; };
+		0437E35E2CC4144B00270053 /* IntelligenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E35D2CC4144B00270053 /* IntelligenceKit */; };
+		0437E3612CC4148300270053 /* IntelligenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E3602CC4148300270053 /* IntelligenceKit */; };
+		0437E3632CC4148300270053 /* IntelligenceKit-MlxLlm in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E3622CC4148300270053 /* IntelligenceKit-MlxLlm */; };
+		0437E3682CC4190F00270053 /* IntelligenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E3672CC4190F00270053 /* IntelligenceKit */; };
+		0437E36A2CC4190F00270053 /* IntelligenceKit-MlxLlm in Frameworks */ = {isa = PBXBuildFile; productRef = 0437E3692CC4190F00270053 /* IntelligenceKit-MlxLlm */; };
+		04F7ECC42CC9408400E89ED5 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7ECC32CC9408400E89ED5 /* Intents.framework */; };
+		04F7ECCF2CC9408400E89ED5 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7ECCE2CC9408400E89ED5 /* IntentsUI.framework */; };
+		04F7ECD92CC9408400E89ED5 /* IntelliIntentsUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04F7ECCD2CC9408400E89ED5 /* IntelliIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04F7ECDC2CC9408400E89ED5 /* IntelliIntents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04F7ECC22CC9408400E89ED5 /* IntelliIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04F7ECD72CC9408400E89ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FA07372CBD706D0027ED73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F7ECCC2CC9408400E89ED5;
+			remoteInfo = IntelliIntentsUI;
+		};
+		04F7ECDA2CC9408400E89ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FA07372CBD706D0027ED73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F7ECC12CC9408400E89ED5;
+			remoteInfo = IntelliIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04F7ECE52CC9408400E89ED5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04F7ECDC2CC9408400E89ED5 /* IntelliIntents.appex in Embed Foundation Extensions */,
+				04F7ECD92CC9408400E89ED5 /* IntelliIntentsUI.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04F7ECC22CC9408400E89ED5 /* IntelliIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntelliIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7ECC32CC9408400E89ED5 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		04F7ECCD2CC9408400E89ED5 /* IntelliIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntelliIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7ECCE2CC9408400E89ED5 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		04FA073F2CBD706D0027ED73 /* IntelligenceKit-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IntelligenceKit-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04F7ECDD2CC9408400E89ED5 /* Exceptions for "IntelliIntents" folder in "IntelliIntents" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04F7ECC12CC9408400E89ED5 /* IntelliIntents */;
+		};
+		04F7ECE12CC9408400E89ED5 /* Exceptions for "IntelliIntentsUI" folder in "IntelliIntentsUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04F7ECCC2CC9408400E89ED5 /* IntelliIntentsUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		04F7ECC52CC9408400E89ED5 /* IntelliIntents */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04F7ECDD2CC9408400E89ED5 /* Exceptions for "IntelliIntents" folder in "IntelliIntents" target */,
+			);
+			path = IntelliIntents;
+			sourceTree = "<group>";
+		};
+		04F7ECD02CC9408400E89ED5 /* IntelliIntentsUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04F7ECE12CC9408400E89ED5 /* Exceptions for "IntelliIntentsUI" folder in "IntelliIntentsUI" target */,
+			);
+			path = IntelliIntentsUI;
+			sourceTree = "<group>";
+		};
 		04FA07412CBD706D0027ED73 /* IntelligenceKit-Sample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "IntelligenceKit-Sample";
@@ -23,21 +103,56 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04F7ECBF2CC9408400E89ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7ECC42CC9408400E89ED5 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7ECCA2CC9408400E89ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7ECCF2CC9408400E89ED5 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FA073C2CBD706D0027ED73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA07BD2CBD76600027ED73 /* IntelligenceKit in Frameworks */,
+				0437E3632CC4148300270053 /* IntelligenceKit-MlxLlm in Frameworks */,
+				0437E35B2CC4129B00270053 /* IntelligenceKit-MlxLlm in Frameworks */,
+				0437E3592CC4129B00270053 /* IntelligenceKit in Frameworks */,
+				0437E3612CC4148300270053 /* IntelligenceKit in Frameworks */,
+				0437E36A2CC4190F00270053 /* IntelligenceKit-MlxLlm in Frameworks */,
+				0437E35E2CC4144B00270053 /* IntelligenceKit in Frameworks */,
+				0437E2E32CC403BE00270053 /* MarkdownUI in Frameworks */,
+				0437E3682CC4190F00270053 /* IntelligenceKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0437E2E42CC4078600270053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F7ECC32CC9408400E89ED5 /* Intents.framework */,
+				04F7ECCE2CC9408400E89ED5 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04FA07362CBD706D0027ED73 = {
 			isa = PBXGroup;
 			children = (
 				04FA07412CBD706D0027ED73 /* IntelligenceKit-Sample */,
+				04F7ECC52CC9408400E89ED5 /* IntelliIntents */,
+				04F7ECD02CC9408400E89ED5 /* IntelliIntentsUI */,
+				0437E2E42CC4078600270053 /* Frameworks */,
 				04FA07402CBD706D0027ED73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				04FA073F2CBD706D0027ED73 /* IntelligenceKit-Sample.app */,
+				04F7ECC22CC9408400E89ED5 /* IntelliIntents.appex */,
+				04F7ECCD2CC9408400E89ED5 /* IntelliIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +170,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		04F7ECC12CC9408400E89ED5 /* IntelliIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7ECDE2CC9408400E89ED5 /* Build configuration list for PBXNativeTarget "IntelliIntents" */;
+			buildPhases = (
+				04F7ECBE2CC9408400E89ED5 /* Sources */,
+				04F7ECBF2CC9408400E89ED5 /* Frameworks */,
+				04F7ECC02CC9408400E89ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04F7ECC52CC9408400E89ED5 /* IntelliIntents */,
+			);
+			name = IntelliIntents;
+			packageProductDependencies = (
+			);
+			productName = IntelliIntents;
+			productReference = 04F7ECC22CC9408400E89ED5 /* IntelliIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		04F7ECCC2CC9408400E89ED5 /* IntelliIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7ECE22CC9408400E89ED5 /* Build configuration list for PBXNativeTarget "IntelliIntentsUI" */;
+			buildPhases = (
+				04F7ECC92CC9408400E89ED5 /* Sources */,
+				04F7ECCA2CC9408400E89ED5 /* Frameworks */,
+				04F7ECCB2CC9408400E89ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04F7ECD02CC9408400E89ED5 /* IntelliIntentsUI */,
+			);
+			name = IntelliIntentsUI;
+			packageProductDependencies = (
+			);
+			productName = IntelliIntentsUI;
+			productReference = 04F7ECCD2CC9408400E89ED5 /* IntelliIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		04FA073E2CBD706D0027ED73 /* IntelligenceKit-Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FA074D2CBD706E0027ED73 /* Build configuration list for PBXNativeTarget "IntelligenceKit-Sample" */;
@@ -60,17 +221,27 @@
 				04FA073B2CBD706D0027ED73 /* Sources */,
 				04FA073C2CBD706D0027ED73 /* Frameworks */,
 				04FA073D2CBD706D0027ED73 /* Resources */,
+				04F7ECE52CC9408400E89ED5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04F7ECD82CC9408400E89ED5 /* PBXTargetDependency */,
+				04F7ECDB2CC9408400E89ED5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				04FA07412CBD706D0027ED73 /* IntelligenceKit-Sample */,
 			);
 			name = "IntelligenceKit-Sample";
 			packageProductDependencies = (
-				04FA07BC2CBD76600027ED73 /* IntelligenceKit */,
+				0437E2E22CC403BE00270053 /* MarkdownUI */,
+				0437E3582CC4129B00270053 /* IntelligenceKit */,
+				0437E35A2CC4129B00270053 /* IntelligenceKit-MlxLlm */,
+				0437E35D2CC4144B00270053 /* IntelligenceKit */,
+				0437E3602CC4148300270053 /* IntelligenceKit */,
+				0437E3622CC4148300270053 /* IntelligenceKit-MlxLlm */,
+				0437E3672CC4190F00270053 /* IntelligenceKit */,
+				0437E3692CC4190F00270053 /* IntelligenceKit-MlxLlm */,
 			);
 			productName = "IntelligenceKit-Sample";
 			productReference = 04FA073F2CBD706D0027ED73 /* IntelligenceKit-Sample.app */;
@@ -86,6 +257,12 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					04F7ECC12CC9408400E89ED5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					04F7ECCC2CC9408400E89ED5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					04FA073E2CBD706D0027ED73 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -101,7 +278,8 @@
 			mainGroup = 04FA07362CBD706D0027ED73;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				04FA07BB2CBD76600027ED73 /* XCLocalSwiftPackageReference "../../IntelligenceKit" */,
+				0437E2E12CC403BE00270053 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				0437E3662CC4190F00270053 /* XCLocalSwiftPackageReference "../../IntelligenceKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04FA07402CBD706D0027ED73 /* Products */;
@@ -109,11 +287,27 @@
 			projectRoot = "";
 			targets = (
 				04FA073E2CBD706D0027ED73 /* IntelligenceKit-Sample */,
+				04F7ECC12CC9408400E89ED5 /* IntelliIntents */,
+				04F7ECCC2CC9408400E89ED5 /* IntelliIntentsUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04F7ECC02CC9408400E89ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7ECCB2CC9408400E89ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FA073D2CBD706D0027ED73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +318,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04F7ECBE2CC9408400E89ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7ECC92CC9408400E89ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FA073B2CBD706D0027ED73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,7 +341,120 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		04F7ECD82CC9408400E89ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F7ECCC2CC9408400E89ED5 /* IntelliIntentsUI */;
+			targetProxy = 04F7ECD72CC9408400E89ED5 /* PBXContainerItemProxy */;
+		};
+		04F7ECDB2CC9408400E89ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F7ECC12CC9408400E89ED5 /* IntelliIntents */;
+			targetProxy = 04F7ECDA2CC9408400E89ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		04F7ECDF2CC9408400E89ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5MF583N8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelliIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IntelliIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.croamac.IntelligenceKit-Sample.IntelliIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F7ECE02CC9408400E89ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5MF583N8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelliIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IntelliIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.croamac.IntelligenceKit-Sample.IntelliIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F7ECE32CC9408400E89ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5MF583N8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelliIntentsUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IntelliIntentsUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.croamac.IntelligenceKit-Sample.IntelliIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F7ECE42CC9408400E89ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5MF583N8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelliIntentsUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IntelliIntentsUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.croamac.IntelligenceKit-Sample.IntelliIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		04FA074B2CBD706E0027ED73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -258,6 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "IntelligenceKit-Sample/IntelligenceKit-Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IntelligenceKit-Sample/Preview Content\"";
@@ -287,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "IntelligenceKit-Sample/IntelligenceKit-Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IntelligenceKit-Sample/Preview Content\"";
@@ -314,6 +637,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04F7ECDE2CC9408400E89ED5 /* Build configuration list for PBXNativeTarget "IntelliIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7ECDF2CC9408400E89ED5 /* Debug */,
+				04F7ECE02CC9408400E89ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F7ECE22CC9408400E89ED5 /* Build configuration list for PBXNativeTarget "IntelliIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7ECE32CC9408400E89ED5 /* Debug */,
+				04F7ECE42CC9408400E89ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04FA073A2CBD706D0027ED73 /* Build configuration list for PBXProject "IntelligenceKit-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -335,16 +676,56 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		04FA07BB2CBD76600027ED73 /* XCLocalSwiftPackageReference "../../IntelligenceKit" */ = {
+		0437E3662CC4190F00270053 /* XCLocalSwiftPackageReference "../../IntelligenceKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../IntelligenceKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		0437E2E12CC403BE00270053 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		04FA07BC2CBD76600027ED73 /* IntelligenceKit */ = {
+		0437E2E22CC403BE00270053 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0437E2E12CC403BE00270053 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		0437E3582CC4129B00270053 /* IntelligenceKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = IntelligenceKit;
+		};
+		0437E35A2CC4129B00270053 /* IntelligenceKit-MlxLlm */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "IntelligenceKit-MlxLlm";
+		};
+		0437E35D2CC4144B00270053 /* IntelligenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IntelligenceKit;
+		};
+		0437E3602CC4148300270053 /* IntelligenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IntelligenceKit;
+		};
+		0437E3622CC4148300270053 /* IntelligenceKit-MlxLlm */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "IntelligenceKit-MlxLlm";
+		};
+		0437E3672CC4190F00270053 /* IntelligenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IntelligenceKit;
+		};
+		0437E3692CC4190F00270053 /* IntelligenceKit-MlxLlm */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "IntelligenceKit-MlxLlm";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -8,14 +8,42 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @Environment(NavigationManager.self) private var navigation
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        @Bindable var navigation = navigation
+        TabView() {
+            Tab("Features", systemImage: "photo.on.rectangle") {
+                firstTabView
+            }
+            Tab("Albums", systemImage: "photo.stack") {
+                ColorIntentView(colorItem: navigation.colorItem)
+            }
         }
-        .padding()
+    }
+
+    @ViewBuilder
+    private var firstTabView: some View {
+        NavigationStack() {
+            List {
+                Section("CoreML") {
+                    NavigationLink {
+                        CoreMLDemoView()
+                    } label: {
+                        Text("OpenELM with CoreML")
+                    }
+                }
+
+                Section("MLX") {
+                    NavigationLink {
+                        MLXDemoView()
+                    } label: {
+                        Text("Llama 3.2 1B with MLX")
+                    }
+                }
+            }
+        }
     }
 }
 
